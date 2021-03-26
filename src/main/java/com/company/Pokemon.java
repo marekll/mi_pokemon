@@ -44,7 +44,7 @@ public class Pokemon {
                 e.printStackTrace();
             }
         }
-        return ptw.getEffinciency(type2);
+        return ptw.getEfficiency(type2);
 
     }
 }

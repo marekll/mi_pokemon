@@ -9,7 +9,7 @@ public class PokemonTypeWrapper {
     public String getName(){
         return this.name;
     }
-    protected String getEffinciency(String type){
+    protected String getEfficiency(String type){
         return damage_relations.getEffinciencyTo(type);
     }
 }
